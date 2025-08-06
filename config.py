@@ -1,0 +1,22 @@
+import os
+
+NIFTY_STOCKS = ['TCS.NS', 'INFY.NS', 'RELIANCE.NS']
+DATA_PERIOD = '6mo'
+DATA_INTERVAL = '1d'
+
+RSI_PERIOD = 14
+RSI_OVERSOLD = 30
+MA_SHORT = 20
+MA_LONG = 50
+
+GOOGLE_SHEET_NAME = 'Algo_Trading_Logs'
+GOOGLE_CREDENTIALS_FILE = 'credentials.json'
+
+TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID'
+
+ML_FEATURES = ['RSI', 'MACD', 'Volume', 'MA20', 'MA50']
+ML_MODEL_TYPE = 'DecisionTree'
+
+LOG_LEVEL = 'INFO'
+LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

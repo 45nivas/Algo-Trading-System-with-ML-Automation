@@ -1,0 +1,246 @@
+2025-08-06 17:45:50,982 - root - ERROR - Credentials file not found: credentials.json
+2025-08-06 17:45:50,982 - root - INFO - Please download credentials.json from Google Cloud Console
+2025-08-06 17:45:50,983 - __main__ - INFO - Algo Trading System initialized successfully
+2025-08-06 17:45:50,983 - __main__ - INFO - Starting full analysis pipeline...
+2025-08-06 17:45:50,996 - __main__ - INFO - Fetching stock data...
+2025-08-06 17:45:52,840 - root - INFO - Fetched data for TCS.NS
+2025-08-06 17:45:53,215 - root - INFO - Fetched data for INFY.NS
+2025-08-06 17:45:53,566 - root - INFO - Fetched data for RELIANCE.NS
+2025-08-06 17:45:53,567 - __main__ - INFO - Successfully fetched data for 3 stocks
+2025-08-06 17:45:53,567 - __main__ - INFO - Running strategy analysis...
+2025-08-06 17:45:53,567 - __main__ - INFO - Analyzing TCS.NS...
+2025-08-06 17:45:53,663 - root - INFO - Backtest completed for TCS.NS. Generated 0 trades.
+2025-08-06 17:45:53,664 - __main__ - INFO - Analyzing INFY.NS...
+2025-08-06 17:45:53,810 - root - INFO - Backtest completed for INFY.NS. Generated 0 trades.
+2025-08-06 17:45:53,810 - __main__ - INFO - Analyzing RELIANCE.NS...
+2025-08-06 17:45:53,909 - root - INFO - Backtest completed for RELIANCE.NS. Generated 0 trades.
+2025-08-06 17:45:53,910 - __main__ - INFO - Strategy analysis completed. 0 trades, 44 signals
+2025-08-06 17:45:53,910 - __main__ - INFO - Running ML analysis...
+2025-08-06 17:45:53,910 - __main__ - INFO - Training ML model for TCS.NS...
+2025-08-06 17:45:53,926 - root - ERROR - Error training model: Cannot set a DataFrame with multiple columns to the single column Volume_Ratio
+2025-08-06 17:45:53,926 - __main__ - INFO - Training ML model for INFY.NS...
+2025-08-06 17:45:53,939 - root - ERROR - Error training model: Cannot set a DataFrame with multiple columns to the single column Volume_Ratio
+2025-08-06 17:45:53,939 - __main__ - INFO - Training ML model for RELIANCE.NS...
+2025-08-06 17:45:53,950 - root - ERROR - Error training model: Cannot set a DataFrame with multiple columns to the single column Volume_Ratio
+2025-08-06 17:45:53,951 - __main__ - INFO - Calculating and logging metrics...
+2025-08-06 17:45:53,951 - root - INFO - No trades to log
+2025-08-06 17:45:53,951 - root - ERROR - Error logging signals: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 17:45:53,951 - root - ERROR - Error logging summary: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 17:45:53,951 - root - INFO - No ML predictions to log
+2025-08-06 17:45:53,952 - __main__ - ERROR - Error calculating metrics: 'winning_trades'
+2025-08-06 17:45:53,954 - __main__ - INFO - Full analysis pipeline completed successfully
+2025-08-06 17:47:14,824 - root - ERROR - Credentials file not found: credentials.json
+2025-08-06 17:47:14,824 - root - INFO - Please download credentials.json from Google Cloud Console
+2025-08-06 17:47:14,824 - __main__ - INFO - Algo Trading System initialized successfully
+2025-08-06 17:47:14,825 - __main__ - INFO - Starting full analysis pipeline...
+2025-08-06 17:47:14,828 - __main__ - INFO - Fetching stock data...
+2025-08-06 17:47:15,885 - root - INFO - Fetched data for TCS.NS
+2025-08-06 17:47:16,167 - root - INFO - Fetched data for INFY.NS
+2025-08-06 17:47:16,463 - root - INFO - Fetched data for RELIANCE.NS
+2025-08-06 17:47:16,464 - __main__ - INFO - Successfully fetched data for 3 stocks
+2025-08-06 17:47:16,465 - __main__ - INFO - Running strategy analysis...
+2025-08-06 17:47:16,465 - __main__ - INFO - Analyzing TCS.NS...
+2025-08-06 17:47:16,565 - root - INFO - Backtest completed for TCS.NS. Generated 0 trades.
+2025-08-06 17:47:16,566 - __main__ - INFO - Analyzing INFY.NS...
+2025-08-06 17:47:16,682 - root - INFO - Backtest completed for INFY.NS. Generated 0 trades.
+2025-08-06 17:47:16,683 - __main__ - INFO - Analyzing RELIANCE.NS...
+2025-08-06 17:47:16,770 - root - INFO - Backtest completed for RELIANCE.NS. Generated 0 trades.
+2025-08-06 17:47:16,770 - __main__ - INFO - Strategy analysis completed. 0 trades, 44 signals
+2025-08-06 17:47:16,770 - __main__ - INFO - Running ML analysis...
+2025-08-06 17:47:16,771 - __main__ - INFO - Training ML model for TCS.NS...
+2025-08-06 17:47:16,781 - root - ERROR - Error training model: Cannot set a DataFrame with multiple columns to the single column Volume_Ratio
+2025-08-06 17:47:16,782 - __main__ - INFO - Training ML model for INFY.NS...
+2025-08-06 17:47:16,794 - root - ERROR - Error training model: Cannot set a DataFrame with multiple columns to the single column Volume_Ratio
+2025-08-06 17:47:16,794 - __main__ - INFO - Training ML model for RELIANCE.NS...
+2025-08-06 17:47:16,805 - root - ERROR - Error training model: Cannot set a DataFrame with multiple columns to the single column Volume_Ratio
+2025-08-06 17:47:16,805 - __main__ - INFO - Calculating and logging metrics...
+2025-08-06 17:47:16,806 - root - INFO - No trades to log
+2025-08-06 17:47:16,806 - root - ERROR - Error logging signals: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 17:47:16,806 - root - ERROR - Error logging summary: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 17:47:16,806 - root - INFO - No ML predictions to log
+2025-08-06 17:47:16,806 - __main__ - ERROR - Error calculating metrics: 'winning_trades'
+2025-08-06 17:47:16,809 - __main__ - INFO - Full analysis pipeline completed successfully
+2025-08-06 18:09:49,360 - root - ERROR - Credentials file not found: credentials.json
+2025-08-06 18:09:49,361 - root - INFO - Please download credentials.json from Google Cloud Console
+2025-08-06 18:09:49,361 - __main__ - INFO - Algo Trading System initialized successfully
+2025-08-06 18:09:49,361 - __main__ - INFO - Starting full analysis pipeline...
+2025-08-06 18:09:49,364 - __main__ - INFO - Fetching stock data...
+2025-08-06 18:09:51,080 - root - INFO - Fetched data for TCS.NS
+2025-08-06 18:09:51,941 - root - INFO - Fetched data for INFY.NS
+2025-08-06 18:09:52,803 - root - INFO - Fetched data for RELIANCE.NS
+2025-08-06 18:09:52,804 - __main__ - INFO - Successfully fetched data for 3 stocks
+2025-08-06 18:09:52,804 - __main__ - INFO - Running strategy analysis...
+2025-08-06 18:09:52,804 - __main__ - INFO - Analyzing TCS.NS...
+2025-08-06 18:09:52,809 - root - INFO - Backtest completed for TCS.NS. Generated 0 trades.
+2025-08-06 18:09:52,810 - __main__ - INFO - Analyzing INFY.NS...
+2025-08-06 18:09:52,814 - root - INFO - Backtest completed for INFY.NS. Generated 0 trades.
+2025-08-06 18:09:52,814 - __main__ - INFO - Analyzing RELIANCE.NS...
+2025-08-06 18:09:52,819 - root - INFO - Backtest completed for RELIANCE.NS. Generated 0 trades.
+2025-08-06 18:09:52,819 - __main__ - INFO - Strategy analysis completed. 0 trades, 44 signals
+2025-08-06 18:09:52,819 - __main__ - INFO - Running ML analysis...
+2025-08-06 18:09:52,819 - __main__ - INFO - Training ML model for TCS.NS...
+2025-08-06 18:09:52,848 - root - INFO - Model trained successfully. Accuracy: 0.5652
+2025-08-06 18:09:52,853 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.79      0.69        14
+           1       0.40      0.22      0.29         9
+
+    accuracy                           0.57        23
+   macro avg       0.51      0.50      0.49        23
+weighted avg       0.53      0.57      0.53        23
+
+2025-08-06 18:09:52,860 - __main__ - INFO - ML prediction for TCS.NS: DOWN (Confidence: 100.00%)
+2025-08-06 18:09:52,875 - __main__ - INFO - Feature importance for TCS.NS:
+          feature  importance
+2    Volume_Ratio    0.351366
+4            MA50    0.228815
+5    Price_Change    0.220788
+3            MA20    0.116705
+1            MACD    0.082326
+0             RSI    0.000000
+6  MACD_Histogram    0.000000
+2025-08-06 18:09:52,875 - __main__ - INFO - Training ML model for INFY.NS...
+2025-08-06 18:09:52,884 - root - INFO - Model trained successfully. Accuracy: 0.5652
+2025-08-06 18:09:52,888 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.53      0.82      0.64        11
+           1       0.67      0.33      0.44        12
+
+    accuracy                           0.57        23
+   macro avg       0.60      0.58      0.54        23
+weighted avg       0.60      0.57      0.54        23
+
+2025-08-06 18:09:52,895 - __main__ - INFO - ML prediction for INFY.NS: DOWN (Confidence: 100.00%)
+2025-08-06 18:09:52,897 - __main__ - INFO - Feature importance for INFY.NS:
+          feature  importance
+0             RSI    0.317042
+3            MA20    0.242300
+6  MACD_Histogram    0.189279
+1            MACD    0.160488
+2    Volume_Ratio    0.090891
+4            MA50    0.000000
+5    Price_Change    0.000000
+2025-08-06 18:09:52,898 - __main__ - INFO - Training ML model for RELIANCE.NS...
+2025-08-06 18:09:52,907 - root - INFO - Model trained successfully. Accuracy: 0.6522
+2025-08-06 18:09:52,910 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.83      0.71        12
+           1       0.71      0.45      0.56        11
+
+    accuracy                           0.65        23
+   macro avg       0.67      0.64      0.63        23
+weighted avg       0.67      0.65      0.64        23
+
+2025-08-06 18:09:52,917 - __main__ - INFO - ML prediction for RELIANCE.NS: DOWN (Confidence: 100.00%)
+2025-08-06 18:09:52,919 - __main__ - INFO - Feature importance for RELIANCE.NS:
+          feature  importance
+4            MA50    0.358504
+2    Volume_Ratio    0.236312
+5    Price_Change    0.234876
+6  MACD_Histogram    0.170309
+0             RSI    0.000000
+1            MACD    0.000000
+3            MA20    0.000000
+2025-08-06 18:09:52,920 - __main__ - INFO - Average ML prediction confidence: 100.00%
+2025-08-06 18:09:52,920 - __main__ - INFO - Calculating and logging metrics...
+2025-08-06 18:09:52,920 - root - INFO - No trades to log
+2025-08-06 18:09:52,920 - root - ERROR - Error logging signals: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 18:09:52,920 - root - ERROR - Error logging summary: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 18:09:52,920 - root - ERROR - Error logging ML predictions: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 18:09:52,920 - __main__ - ERROR - Error calculating metrics: 'winning_trades'
+2025-08-06 18:09:52,922 - __main__ - INFO - Full analysis pipeline completed successfully
+2025-08-06 18:37:56,033 - root - ERROR - Credentials file not found: credentials.json
+2025-08-06 18:37:56,034 - root - INFO - Please download credentials.json from Google Cloud Console
+2025-08-06 18:37:56,035 - __main__ - INFO - Algo Trading System initialized successfully
+2025-08-06 18:37:56,035 - __main__ - INFO - Starting full analysis pipeline...
+2025-08-06 18:37:56,038 - __main__ - INFO - Fetching stock data...
+2025-08-06 18:37:57,413 - root - INFO - Fetched data for TCS.NS
+2025-08-06 18:37:58,266 - root - INFO - Fetched data for INFY.NS
+2025-08-06 18:37:59,142 - root - INFO - Fetched data for RELIANCE.NS
+2025-08-06 18:37:59,143 - __main__ - INFO - Successfully fetched data for 3 stocks
+2025-08-06 18:37:59,143 - __main__ - INFO - Running strategy analysis...
+2025-08-06 18:37:59,143 - __main__ - INFO - Analyzing TCS.NS...
+2025-08-06 18:37:59,148 - root - INFO - Backtest completed for TCS.NS. Generated 0 trades.
+2025-08-06 18:37:59,148 - __main__ - INFO - Analyzing INFY.NS...
+2025-08-06 18:37:59,160 - root - INFO - Backtest completed for INFY.NS. Generated 0 trades.
+2025-08-06 18:37:59,161 - __main__ - INFO - Analyzing RELIANCE.NS...
+2025-08-06 18:37:59,175 - root - INFO - Backtest completed for RELIANCE.NS. Generated 0 trades.
+2025-08-06 18:37:59,176 - __main__ - INFO - Strategy analysis completed. 0 trades, 44 signals
+2025-08-06 18:37:59,176 - __main__ - INFO - Running ML analysis...
+2025-08-06 18:37:59,177 - __main__ - INFO - Training ML model for TCS.NS...
+2025-08-06 18:37:59,189 - root - INFO - Model trained successfully. Accuracy: 0.5652
+2025-08-06 18:37:59,193 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.79      0.69        14
+           1       0.40      0.22      0.29         9
+
+    accuracy                           0.57        23
+   macro avg       0.51      0.50      0.49        23
+weighted avg       0.53      0.57      0.53        23
+
+2025-08-06 18:37:59,201 - __main__ - INFO - ML prediction for TCS.NS: DOWN (Confidence: 100.00%)
+2025-08-06 18:37:59,204 - __main__ - INFO - Feature importance for TCS.NS:
+          feature  importance
+2    Volume_Ratio    0.351366
+4            MA50    0.228815
+5    Price_Change    0.220788
+3            MA20    0.116705
+1            MACD    0.082326
+0             RSI    0.000000
+6  MACD_Histogram    0.000000
+2025-08-06 18:37:59,205 - __main__ - INFO - Training ML model for INFY.NS...
+2025-08-06 18:37:59,215 - root - INFO - Model trained successfully. Accuracy: 0.5652
+2025-08-06 18:37:59,218 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.53      0.82      0.64        11
+           1       0.67      0.33      0.44        12
+
+    accuracy                           0.57        23
+   macro avg       0.60      0.58      0.54        23
+weighted avg       0.60      0.57      0.54        23
+
+2025-08-06 18:37:59,226 - __main__ - INFO - ML prediction for INFY.NS: DOWN (Confidence: 100.00%)
+2025-08-06 18:37:59,228 - __main__ - INFO - Feature importance for INFY.NS:
+          feature  importance
+0             RSI    0.317042
+3            MA20    0.242300
+6  MACD_Histogram    0.189279
+1            MACD    0.160488
+2    Volume_Ratio    0.090891
+4            MA50    0.000000
+5    Price_Change    0.000000
+2025-08-06 18:37:59,229 - __main__ - INFO - Training ML model for RELIANCE.NS...
+2025-08-06 18:37:59,238 - root - INFO - Model trained successfully. Accuracy: 0.6522
+2025-08-06 18:37:59,241 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.83      0.71        12
+           1       0.71      0.45      0.56        11
+
+    accuracy                           0.65        23
+   macro avg       0.67      0.64      0.63        23
+weighted avg       0.67      0.65      0.64        23
+
+2025-08-06 18:37:59,248 - __main__ - INFO - ML prediction for RELIANCE.NS: DOWN (Confidence: 100.00%)
+2025-08-06 18:37:59,251 - __main__ - INFO - Feature importance for RELIANCE.NS:
+          feature  importance
+4            MA50    0.358504
+2    Volume_Ratio    0.236312
+5    Price_Change    0.234876
+6  MACD_Histogram    0.170309
+0             RSI    0.000000
+1            MACD    0.000000
+3            MA20    0.000000
+2025-08-06 18:37:59,251 - __main__ - INFO - Average ML prediction confidence: 100.00%
+2025-08-06 18:37:59,251 - __main__ - INFO - Calculating and logging metrics...
+2025-08-06 18:37:59,251 - root - INFO - No trades to log
+2025-08-06 18:37:59,251 - root - ERROR - Error logging signals: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 18:37:59,252 - root - ERROR - Error logging summary: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 18:37:59,252 - root - ERROR - Error logging ML predictions: 'NoneType' object has no attribute 'worksheet'
+2025-08-06 18:37:59,252 - __main__ - ERROR - Error calculating metrics: 'winning_trades'
+2025-08-06 18:37:59,254 - __main__ - INFO - Full analysis pipeline completed successfully
